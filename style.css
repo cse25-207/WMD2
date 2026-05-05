@@ -47,14 +47,13 @@ nav ul li a.active {
 
 /* HERO */
 .hero {
-    background: url("https://i.ibb.co/1cx7RPN/Chat-GPT-Image-May-4-2026-12-39-24-AM.png") no-repeat center/cover;
+    background: url("https://ibb.co/KzVDxTYk") no-repeat center/cover;
     height: 500px;
     display: flex;
     align-items: center;
     padding-left: 50px;
-    color: blue;
+    color: white;
 }
-
 .hero-text h1 {
     font-size: 40px;
     margin-bottom: 15px;
