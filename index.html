@@ -1,118 +1,104 @@
-<!doctype html>
-<html>
-	<head>
-		<title>Sample Web Page</title>
-		<style type="text/css">
-			body{
-				background: #5e5d61;
-				margin: 0 10%;
-				border: solid #000 thin;
-				box-shadow: #fff 3px 5px 10px;
-				padding: 10px;
-			}
-			header{
-				background: #aef;
-				min-height: 152px;
-			}
-			header img{
-				border: thin solid #999;
-				float: left;
-				margin-right: 25px;
-			}
-			nav, article{
-				margin-top: 10px;
-			}
-			nav{
-				float: left;
-				background: #ccc;
-				min-height: 350px;
-				min-width: 150px;
-				margin-right: 10px;
-			}
-			nav ul li{
-				list-style-type: none;
-				margin: 20px 10px;
-				background: #5e5d61;
-				min-height: 25px;
-				padding: 10px;
-			}
-			nav ul li:hover{
-				background: #aef;
-			}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growth Point Printers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-			nav ul li a{
-				color: #fff;
-				font-weight: bold;
-				font-family: "courier new";
-				text-decoration: none;
-			}
-			article{
-				background: black;
-				float: right;
-				width: 65%;
-				padding-left: 10px;
-			}
-			article section{
-				margin-top: 5px;
-				border-bottom: #5e5d61 solid thin;
-				padding-top: 10px;
-				min-height: 150px;
-			}
-			article section img{
-				float: left;
-				border: thin solid #fff;
-				margin-right: 10px;
-				box-shadow: 2px 3px 5px #5e5d61;
-				background: #5e5d61;
-				opacity: .65;
-			}
-			article section img:hover{
-				opacity: 1;
-			}
-			article section p span{
-				background: #aef;
-				padding: 0 10px;
-			}
-			div#clear-space{clear:both;}
-			footer{
-				border-top: #000 solid thin;
-				margin-top: 15px;
-				text-align: center;
-				padding-top: 10px;
-			}
-		</style>
-	</head>
-	<body>
-		<header>
-			<img src="" alt="logo goes here" width="150px" height="150px" />
-			<h1>Company Name Goes Here</h1>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">About Us</a></li>
-				<li><a href="">Products</a></li>
-				<li><a href="">Services</a></li>
-				<li><a href="">Contact Us</a></li>
-			</ul>
-		</nav>
-		<article>
-			<section>
-				<img src="" alt="sample image" width="52px" height="10px" />
-				<p>lorem ipsum iton hhety lint nggoe ydbu ygs u di ghuskhu ygdu dummy text. Lorem ipsum imap yjet gah uj jdu uii ayy uiogge kgbi ood bbjub dhhh uhdlhbb odjkh iuhkh di lpoi siu iuu fi jiudi ioj fduy ioijdf</p>
-			</section>
-			<section>
-				<img src="" alt="sample image" width="52px" height="10px" />
-				<p>lorem ipsum iton hhety lint nggoe ydbu ygs u di ghuskhu ygdu dummy text. Lorem ipsum imap yjet gah uj jdu uii ayy uiogge kgbi ood bbjub dhhh uhdlhbb odjkh iuhkh di lpoi siu iuu fi jiudi ioj fduy ioijdf</p>
-			</section>
-			<section>
-				<img src="" alt="sample image" width="52px" height="10px" />
-				<p>lorem ipsum iton hhety lint nggoe ydbu ygs u di ghuskhu ygdu dummy text. Lorem ipsum imap yjet gah uj jdu uii ayy uiogge kgbi ood bbjub dhhh uhdlhbb odjkh iuhkh di lpoi siu iuu fi jiudi ioj fduy ioijdf <span><a href="">Read More...</a></span></p>
-			</section>
-		</article>
-		<div id="clear-space"></div>
-		<footer>
-			<span>Copyrights &copy; 2026. All rights reserved.</span>
-		</footer>
-	</body>
+<!-- NAVBAR -->
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <a href="#" class="btn">GET A QUOTE</a>
+    </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Unleashing Joy: A Dive<br>into the World of<br>Entertainment</h1>
+        <p>Lorem Ipsum is simply dummy text of printing presses and text files</p>
+
+        <div class="hero-buttons">
+            <a href="#" class="btn-orange">OUR SERVICES</a>
+            <a href="#" class="btn-dark">VIEW GALLERY</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-container">
+
+        <!-- LEFT -->
+        <div class="footer-box">
+            <img src="images/logo.png" class="footer-logo">
+            <div class="socials">
+                <span>F</span>
+                <span>I</span>
+                <span>W</span>
+            </div>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-box">
+            <h3>QUICK LINKS</h3>
+            <p>Home</p>
+            <p>Services</p>
+            <p>About</p>
+            <p>Gallery</p>
+            <p>Contact</p>
+        </div>
+
+        <!-- SERVICES -->
+        <div class="footer-box">
+            <h3>OUR SERVICES</h3>
+            <p>Posters & flyers</p>
+            <p>Business Cards</p>
+            <p>Banners</p>
+            <p>Branding</p>
+            <p>Other Prints</p>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+            <p>76453241</p>
+            <p>info@growthp.co.bw</p>
+            <p>Plot 123, Gaborone Botswana</p>
+            <p>Mon-Sat: 8am-5pm</p>
+        </div>
+
+        <!-- NEWSLETTER -->
+        <div class="footer-box">
+            <h3>NEWSLETTER</h3>
+            <p>Subscribe to get updates</p>
+            <input type="email" placeholder="Enter your email">
+            <button class="btn-orange">SUBSCRIBE</button>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Growth Point Printers. All Rights Reserved</p>
+    </div>
+</footer>
+
+</body>
 </html>
